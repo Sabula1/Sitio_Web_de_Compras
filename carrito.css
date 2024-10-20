@@ -17,6 +17,8 @@ body {
 /* Contenedor principal */
 main {
     flex: 1; /* Esto empuja el footer hacia abajo */
+    background-image: url(jpg/blue-background.jpg);
+    background-size: cover;
 }
 
 /* Encabezado */
@@ -166,7 +168,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 0;
     width: 100%;
     position: relative;
 }

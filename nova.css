@@ -39,13 +39,13 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
 .main-section {
     padding: 20px;
     flex-grow: 1; /* Hace que el contenido principal se expanda para empujar el footer hacia abajo */
 }
 
-.featured-products {
+main{
+    background-image: url(jpg/background.jpg);
     text-align: center;
 }
 
@@ -55,13 +55,109 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
-.product-card{
-    background-color: white;
+.product-card-1{
+    color: #ff8566;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ff8566;
     margin: 10px;
     width: 250px;
+    border-radius: 10px;
     text-align: center;
+    background-image: url(ps5.jpeg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-2{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/mancuernas.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-3{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/laptop.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-4{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/smartwatch.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-5{
+    color:#ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/videogame.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-6{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/auriculares.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-7{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/tablet.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card-8{
+    color: #ff8566;
+    padding: 10px;
+    border: 1px solid #ff8566;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(jpg/camara.jpg);
+    background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .product-card img {

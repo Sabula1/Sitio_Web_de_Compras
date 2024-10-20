@@ -5,7 +5,7 @@ document.getElementById('add-to-cart')?.addEventListener('click', function() {
         name: 'Consola PlayStation 5',
         price: 499.99,
         quantity: parseInt(document.getElementById('quantity').value),
-        image: 'ps5.jpeg'
+        image: ps5.jpg
     };
 
     addToCart(product);
