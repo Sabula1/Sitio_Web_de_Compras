@@ -68,6 +68,9 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
+.product-card-1:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
 .product-card-2{
     color: #ff8566;
     padding: 10px;
@@ -77,9 +80,13 @@ main{
     border-radius: 10px;
     text-align: center;
     background-image: url(jpg/mancuernas.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
     background-repeat: no-repeat;
     background-position: center;
+}
+.product-card-2:hover{
+    background: rgba(0, 0, 0, 0.8);
 }
 .product-card-3{
     color: #ff8566;
@@ -90,9 +97,13 @@ main{
     border-radius: 10px;
     text-align: center;
     background-image: url(jpg/laptop.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
     background-repeat: no-repeat;
     background-position: center;
+}
+.product-card-3:hover{
+    background: rgba(0, 0, 0, 0.8);
 }
 .product-card-4{
     color: #ff8566;
@@ -103,9 +114,13 @@ main{
     border-radius: 10px;
     text-align: center;
     background-image: url(jpg/smartwatch.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
     background-repeat: no-repeat;
     background-position: center;
+}
+.product-card-4:hover{
+    background: rgba(0, 0, 0, 0.8);
 }
 .product-card-5{
     color:#ff8566;
@@ -120,6 +135,9 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
+.product-card-5:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
 .product-card-6{
     color: #ff8566;
     padding: 10px;
@@ -132,6 +150,9 @@ main{
     background-size: cover; /* <- Asegúrate de que cada línea termine con un punto y coma */
     background-repeat: no-repeat;
     background-position: center;
+}
+.product-card-6:hover{
+    background: rgba(0, 0, 0, 0.8);
 }
 .product-card-7{
     color: #ff8566;
@@ -146,6 +167,9 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
+.product-card-7:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
 .product-card-8{
     color: #ff8566;
     padding: 10px;
@@ -159,7 +183,9 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.product-card-8:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
 .product-card img {
     width: 100%;
     height: auto;
@@ -167,7 +193,7 @@ main{
 
 .old-price {
     text-decoration: line-through;
-    color: #999;
+    color: #d8d8d8;
 }
 
 .btn {
